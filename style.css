@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: arial,sans-serif;
+}
+body{
+    margin-top: 2.12796697626419vh;
+}
+
+header{
+    height: 10vh;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 10px;
+    align-items: center;
+}
+
+header ul li a{
+margin: 8px;
+align-items: center;
+text-decoration: none;
+color: #212121;
+font-size: 12px;
+}
+
+main{
+    height: 75vh;
+    /* margin-top: 10.319917440660475vh ; */
+}
+
+main section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.0319917440660475vh 0.5208333333333334vw;
+}
+
+.google__search{
+    border-radius: 100px;
+    width: 28.645833333333332vw;
+    height: 4.643962848297214vh;
+    border: 1px solid #f2f2f2;
+    color: #000;
+    display: flex;
+    justify-content: space-evenly;
+}
+.google__search:hover{
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
+}
+.google__search .search{
+align-self: center;
+/* padding-left: 1.0416666666666667vw; */
+/* padding-right: 0.5208333333333334vw; */
+}
+.main__search a{
+    align-self: center;
+}
+
+.google__search-input{
+    border-radius: 15px;
+    width: 23.4375vw;
+    height: 4.12796697626419vh;
+    border:none;
+    outline: none;
+}
+.microphone{
+    margin: 0 auto;
+}
+
+.google_buttons button{
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    width: 140px;
+    height: 34px;
+    background-color: #f2f2f2;
+}
+.google_buttons button label{
+    margin: 5px;
+}
+.google_buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.google_profile_photo{
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #f2f2f2;
+    border: 1px solid #dadce0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    
+}
+footer ul{
+    list-style: none;
+    display: flex;
+}
+
+footer ul li{
+    display: inline-block;
+    margin: 0 10px;
+    height: fit-content;
+    color: #70757a;
+}
+
+.footer__left{
+    justify-content: left;
+}
+
+.footer__right{
+    justify-content: right;
+}
+
+footer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
